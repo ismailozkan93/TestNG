@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Test">
+    <test name="Chrome Test">
+        <packages>
+            <package name="com.techproed.crossbrowsertests"></package>
+        </packages>
+    </test>
+    <test name="Firefox Test">
+        <packages>
+            <package name="com.techproed.crossbrowsertests"></package>
+        </packages>
+    </test>
+</suite>
