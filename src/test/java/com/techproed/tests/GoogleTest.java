@@ -8,14 +8,13 @@ import org.testng.annotations.Test;
 
 public class GoogleTest extends TestBase {
 
-@Test
-   public void aramaTesti(){
-    driver.get("http://google.com");
+    @Test
+    public void aramaTesti() {
+        driver.get("http://google.com");
 
-    GooglePage googlePage=new GooglePage(driver);
+        GooglePage googlePage = new GooglePage(driver);
 
-    googlePage.aramaKutusu.sendKeys("Selamlar..");
+        googlePage.aramaKutusu.sendKeys("Selamlar..");
 
-}
-
+    }
 }

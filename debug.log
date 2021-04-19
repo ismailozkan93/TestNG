@@ -1,1 +1,2 @@
 [0906/215136.864:ERROR:file_io_win.cc(180)] CreateFile C:\Users\Ismail\AppData\Local\Temp\scoped_dir12600_963662785\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[1121/203504.809:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
